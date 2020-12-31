@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAVE THE WORLD</title>
+    <link rel="stylesheet" href="shop.css">
+    
+</head>
+
+<body>
+    <nav class="flex space-between">
+        <div><img src="https://i.pinimg.com/originals/de/40/cf/de40cf38d786bb89fdd3ffc02cefdc06.jpg" alt="" ></div>
+        <div>
+        <ul><li><a href="index.html">BACK TO HOME</a></li></ul>
+        </div>
+        <div id="cart" class="flex">
+            
+            <img src="data:image/png;base64,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" alt="">
+            <p>Cart Items (<span id="cart-value">0</span>)</p>
+        </div>
+    </nav>
+
+    <header>
+        <div class="flex header-text">
+            <h1>Shop.</h1>
+            <h1>Save Earth</h1>
+            <h1>Donate</h1>
+            <h5>#HelpSaveEarth</h5>
+        </div>
+    </header>
+
+    <div class="section-container flex">
+        <div class="section">
+            <h2>Discover New Eco-Items</h2>
+            <div class="container flex space-between">
+                <div>
+                    <div>
+                        <img class="books" src="data:image/jpeg;base64,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" height="275px" width="183" alt="">
+                        <h3>Eco-Cutlery</h3>
+                        <h4>We can use cutlery<br> made of made  of wood <br> instead of plastic cutlery</h4>
+                    </div>
+                    <div class="buy flex space-between">
+                        <p>$7.49</p>
+                        <div id="book1" class="button flex space-evenly">
+                            <h6>Add</h6>
+                            <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img class="books" src="data:image/jpeg;base64,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" alt="">
+                        <h3>Eco-Toothbrushes</h3>
+                        <h4>We can use toothbrushes  <br> made os wood <br> instead of plastci ones </h4>
+                    </div>
+                    <div class="buy flex space-between">
+                        <p>$4.59</p>
+                        <div id="book2" class="button flex space-evenly">
+                            <h6>Add</h6>
+                            <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img class="books" src="https://greentechbox.com/wp-content/uploads/2015/05/eco-friendly-promotional-products_2.jpg" height="275px" width="183" alt="">
+                        <h3>Eco-Pens</h3>
+                        <h4>These can be used instead of <br> pens wid plastic bodies</h4>
+                    </div>
+                    <div class="buy flex space-between">
+                        <p>$6.80</p>
+                        <div id="book3" class="button flex space-evenly">
+                            <h6>Add</h6>
+                            <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img class="books" src="https://www1.pictures.lonny.com/mp/DcNq3-aCYaql.jpg" height="275px" width="183" alt="">
+                        <h3>Eco-Bowls</h3>
+                        <h4>These can be used instead of <br> glass and plastic bowls</h4>
+                    </div>
+                    <div class="buy flex space-between">
+                        <p>$10</p>
+                        <div id="book4" class="button flex space-evenly">
+                            <h6>Add</h6>
+                            <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img class="books" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx0kbdS-FbS_fILqTC07o93CCIj5Z1twhC2Q&usqp=CAU" height="275px" width="183" alt="">
+                        <h3>Eco-Buds</h3>
+                        <h4>These can b used instead of <br> disposable plastic ear buds</h4>
+                    </div>
+                    <div class="buy flex space-between">
+                        <p>$7.29</p>
+                        <div id="book5" class="button flex space-evenly">
+                            <h6>Add</h6>
+                            <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img class="books" src="https://images-na.ssl-images-amazon.com/images/I/91a5LWYYzeL._AC_SX466_.jpg" height="275px" width="183" alt="">
+                        <h3>Eco-Pads</h3>
+                        <h4>These can be used instead <br> of synthetic pads</h4>
+                    </div>
+                    <div class="buy flex space-between">
+                        <p>$4.99</p>
+                        <div id="book6" class="button flex space-evenly">
+                            <h6>Add</h6>
+                            <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Discover New </h2>
+            <div class="container flex space-between">
+                <div>
+                    <div>
+                        <img class="games" src="http://i1.faceprep.in/prograd-junior/dart-board.png" alt="">
+                        <h3>Dart Board</h3>
+                        <h4>Wooden board, 16 inches</h4>
+                    </div>
+                    <div class="buy flex space-between">
+                        <p>$17.49</p>
+                        <div id="game1" class="button flex space-evenly">
+                            <h6>Add</h6>
+                            <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img class="games" src="http://i1.faceprep.in/prograd-junior/connect-four.png" alt="">
+                        <h3>Connect 4</h3>
+                        <h4>Board game, multiplayer</h4>
+                    </div>
+                    <div class="buy flex space-between">
+                        <p>$19.99</p>
+                        <div id="game2" class="button flex space-evenly">
+                            <h6>Add</h6>
+                            <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img class="games" src="http://i1.faceprep.in/prograd-junior/jenga.png" alt="">
+                        <h3>Jenga</h3>
+                        <h4>Wooden blocks, 54 pieces</h4>
+                    </div>
+                    <div class="buy flex space-between">
+                        <p>$20.99</p>
+                        <div id="game3" class="button flex space-evenly">
+                            <h6>Add</h6>
+                            <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img class="games" src="http://i1.faceprep.in/prograd-junior/monopoly.png" alt="">
+                        <h3>Monopoly</h3>
+                        <h4>1.61 x 15.75 x 10.51 inches</h4>
+                    </div>
+                    <div class="buy flex space-between">
+                        <p>$19.49</p>
+                        <div id="game4" class="button flex space-evenly">
+                            <h6>Add</h6>
+                            <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Handmade with love</h2>
+            <div class="container flex space-between">
+                <div>
+                    <div>
+                        <img class="crafts" src="http://i1.faceprep.in/prograd-junior/bookmarks.png" alt="">
+                        <h3>Bookmarks</h3>
+                        <h4>Handmade with love</h4>
+                    </div>
+                    <div class="buy flex space-between">
+                        <p>$12.49</p>
+                        <div id="craft1" class="button flex space-evenly">
+                            <h6>Add</h6>
+                            <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img class="crafts" src="http://i1.faceprep.in/prograd-junior/birthday-card.png" alt="">
+                        <h3>Birthday card</h3>
+                        <h4>Handmade with love</h4>
+                    </div>
+                    <div class="buy flex space-between">
+                        <p>$19.99</p>
+                        <div id="craft2" class="button flex space-evenly">
+                            <h6>Add</h6>
+                            <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img class="crafts" src="http://i1.faceprep.in/prograd-junior/stuffed-toy.png" alt="">
+                        <h3>Stuffed toys</h3>
+                        <h4>Handmade with love</h4>
+                    </div>
+                    <div class="buy flex space-between">
+                        <p>$15.99</p>
+                        <div id="craft3" class="button flex space-evenly">
+                            <h6>Add</h6>
+                            <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img class="crafts" src="http://i1.faceprep.in/prograd-junior/dream-catcher.png" alt="">
+                        <h3>Dream catcher drawing</h3>
+                        <h4>Handmade with love</h4>
+                    </div>
+                    <div class="buy flex space-between">
+                        <p>$18.49</p>
+                        <div id="craft4" class="button flex space-evenly">
+                            <h6>Add</h6>
+                            <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="flex space-between">
+        <div>
+            <h2>Brought to you by ProGrad Junior</h2>
+            <img src="https://i.pinimg.com/originals/c6/5d/41/c65d415465fd34517a3be2d483e85384.gif" alt="">
+        </div>
+        <div class="flex" id="details">
+            <h3>VEER</h3>
+            <p>ProGrad Junior</p>
+            <p>Grade 10, AECS MMPS</p>
+            <p>Talk to me at veer.banerjee@gmail.com</p>
+        </div>
+    </footer>
+    <script src="./shop.js"></script>
+</body>
+
+</html>

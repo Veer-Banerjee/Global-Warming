@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Rubik:wght@400;600&display=swap');
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-image: url("https://image.shutterstock.com/image-photo/dark-green-wall-texture-designer-260nw-1248360493.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(106, 190, 57);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(98, 173, 12);
+  }
+
+  .flex {
+      display: flex;
+  }
+
+.row {
+    flex-direction: row;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+div>img {
+    width: 500px;
+}
+
+h1 {
+text-align: center;
+font-size: 50px;
+}
+
+h3{
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+@media only screen and (max-width:600px) {
+  body {
+      text-align: center;
+  }
+
+  .container {
+      justify-content: center;
+  }
+  img {
+    max-width: 100%;
+  }
+}
+
+img{
+  border-radius: 20px;
+  size: 200px 121px;
+  margin: auto;
+}
